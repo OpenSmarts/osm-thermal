@@ -1,0 +1,19 @@
+G04 --- HEADER BEGIN --- *
+G04 #@! TF.GenerationSoftware,LibrePCB,LibrePCB,1.0.0*
+G04 #@! TF.CreationDate,2024-04-28T16:03:24*
+G04 #@! TF.ProjectId,OSm Thermal,b11a65fa-6c4c-431c-8545-341aca355aaf,v1.5*
+G04 #@! TF.Part,Single*
+G04 #@! TF.SameCoordinates*
+G04 #@! TF.FileFunction,Paste,Bot*
+G04 #@! TF.FilePolarity,Positive*
+%FSLAX66Y66*%
+%MOMM*%
+G01*
+G75*
+G04 --- HEADER END --- *
+G04 --- APERTURE LIST BEGIN --- *
+G04 --- APERTURE LIST END --- *
+G04 --- BOARD BEGIN --- *
+G04 --- BOARD END --- *
+G04 #@! TF.MD5,6801a0c39643648f92e9d71fa5c1db2b*
+M02*
