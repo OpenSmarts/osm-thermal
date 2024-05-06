@@ -1,14 +1,14 @@
 M48
 ; #@! TF.GenerationSoftware,LibrePCB,LibrePCB,1.0.0
-; #@! TF.CreationDate,2024-04-26T04:51:19
-; #@! TF.ProjectId,OSm Thermal,b11a65fa-6c4c-431c-8545-341aca355aaf,v1
+; #@! TF.CreationDate,2024-05-06T14:58:10
+; #@! TF.ProjectId,OSm Thermal,b11a65fa-6c4c-431c-8545-341aca355aaf,v1.7
 ; #@! TF.Part,Single
 ; #@! TF.SameCoordinates
 ; #@! TF.FileFunction,NonPlated,1,2,NPTH
 FMAT,2
 METRIC,TZ
 ; #@! TA.AperFunction,MechanicalDrill
-T1C2.0
+T1C2.75
 %
 G90
 G05

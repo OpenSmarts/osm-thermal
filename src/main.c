@@ -3,8 +3,10 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <errno.h>
+#include <string.h>
 
 #include <osm/bind.h>
+#include <osm/protocol.h>
 
 #include <sys/socket.h>
 
@@ -14,10 +16,20 @@ volatile double humidity = 0;
 int _sock_connect(void *data)
 {
 	int fd = (uintptr_t)data;
+	
+	OSMInitFrame frame = {0};
+	memcpy(frame.magic, OSM_MAGIC_INIT, 4);
+	frame.keylen = 0;
+
+	write(fd, &frame, sizeof(frame));
+	printf("Wrote 1!\n");
 
 	double temp = temperature;
 	write(fd, &temp, sizeof(temp));
+	printf("Wrote 2!\n");
 	close(fd);
+
+	printf("Wrote!\n");
 	
 	return 0;
 }
