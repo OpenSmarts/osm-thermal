@@ -18,8 +18,9 @@ int _sock_connect(void *data)
 	int fd = (uintptr_t)data;
 	
 	OSMInitFrame frame = {0};
-	memcpy(frame.magic, OSM_MAGIC_INIT, 4);
-	frame.keylen = 0;
+	memcpy(frame.header.magic, OSM_MAGIC_INIT, 4);
+	frame.header.keylen = 0;
+	frame.header.keytype = OSM_KEYTYPE_NONE;
 
 	write(fd, &frame, sizeof(frame));
 	printf("Wrote 1!\n");
