@@ -156,7 +156,7 @@
   (vertex (position 0.0 -13.0) (angle 90.0))
   (vertex (position 2.0 -15.0) (angle 0.0))
  )
- (stroke_text ed1116bd-bffc-40e0-9b84-7acc7d11a9e1 (layer brd_documentation)
+ (stroke_text ed1116bd-bffc-40e0-9b84-7acc7d11a9e1 (layer top_legend)
   (height 1.0) (stroke_width 0.1) (letter_spacing auto) (line_spacing auto)
   (align left bottom) (position 5.0 -14.0) (rotation 0.0)
   (auto_rotate true) (mirror false) (lock false) (value "{{BOARD}} Board")
