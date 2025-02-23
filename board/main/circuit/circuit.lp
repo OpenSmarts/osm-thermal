@@ -374,6 +374,19 @@
   (signal 3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8 (net 07a06b2e-43ee-4eb7-b312-22fd6399beab))
   (signal ad623f98-9e73-49c3-9404-f7cfa99d17cd (net fa097ea3-9409-45b3-a97a-75888dd83a62))
  )
+ (component 4b81bc2c-238f-4c60-a97b-1486f256802a
+  (lib_component b2d9220e-2cb2-49c3-8875-ac5e2b91855b)
+  (lib_variant e94452d8-b4d4-4e61-b359-d09c65417eaa)
+  (name "JSM") (value "{{MPN}}")
+  (lock_assembly false)
+  (device c7f0456d-ec83-4c6f-a2cf-006fc7f95520
+   (variant 858db6e0-3452-4818-919d-50f82d2216f8)
+  )
+  (signal 104d3377-f362-4741-b312-ae376a9acd37 (net d348e811-dd63-4199-a8b3-92572406c4ab))
+  (signal 43ebb1e5-5008-4f22-97a0-b48b8348d830 (net 07a06b2e-43ee-4eb7-b312-22fd6399beab))
+  (signal 56821da8-23d7-4cc4-b63c-1c430314b594 (net fb074a31-08aa-4dd7-af11-2f1169c2a4bf))
+  (signal 5b930686-787e-42b2-8434-883ff4f607c1 (net e796368f-2bc3-4e6b-8ec6-4221cd57f218))
+ )
  (component 52ca261e-3c96-4e96-a159-60f72cf6cad8
   (lib_component ef80cd5e-2689-47ee-8888-31d04fc99174)
   (lib_variant d16e1f44-16af-4773-a310-de370f744548)
@@ -541,18 +554,6 @@
   (signal 3982c030-dbdf-4cb9-8d75-0e471e12fabb (net 6418280b-7d4a-4fc1-8cd5-b421ae05f52e))
   (signal 4c7edd50-32d2-4098-a286-3536b882967b (net 789742ba-5e76-4a74-9470-c8248820cc0a))
   (signal d7eb84bb-7f47-4e0b-99d1-1ee30019c40e (net 07a06b2e-43ee-4eb7-b312-22fd6399beab))
- )
- (component 87082bf5-cfca-47c7-9589-8323a904b342
-  (lib_component 05d0bce0-c94c-4fec-bca2-2c2b60490c01)
-  (lib_variant 018c7f9d-8b77-4045-8b9e-4309d6b22536)
-  (name "JSM") (value "")
-  (lock_assembly false)
-  (device eb97b24e-e17b-4c7e-9825-91baf2b6990f
-  )
-  (signal 109dd77e-f0eb-4307-9392-5ced2051941e (net d348e811-dd63-4199-a8b3-92572406c4ab))
-  (signal a5b37c07-bbd8-4767-b0a2-267daa119ed7 (net 07a06b2e-43ee-4eb7-b312-22fd6399beab))
-  (signal bbdffe3e-81b3-425c-a621-d08c2bc33bb0 (net fb074a31-08aa-4dd7-af11-2f1169c2a4bf))
-  (signal c768c2a8-0c10-475e-8ee7-1f3f65c8cab2 (net e796368f-2bc3-4e6b-8ec6-4221cd57f218))
  )
  (component 8a8113d2-9964-4898-b9fa-6fd5b5f10f0c
   (lib_component d167e0e3-6a92-4b76-b013-77b9c230e5f1)
